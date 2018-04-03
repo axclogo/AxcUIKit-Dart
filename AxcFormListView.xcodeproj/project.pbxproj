@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94717525068ED6FCF48AEE6 /* libPods-AxcFormListView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6F334DBB523619B000D1B1 /* libPods-AxcFormListView.a */; };
+		EA5DC2CB2071D39A00DFF2C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC2CA2071D39A00DFF2C8 /* AppDelegate.m */; };
+		EA5DC2CE2071D39A00DFF2C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC2CD2071D39A00DFF2C8 /* ViewController.m */; };
+		EA5DC2D12071D39A00DFF2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5DC2CF2071D39A00DFF2C8 /* Main.storyboard */; };
+		EA5DC2D32071D39A00DFF2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5DC2D22071D39A00DFF2C8 /* Assets.xcassets */; };
+		EA5DC2D62071D39A00DFF2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5DC2D42071D39A00DFF2C8 /* LaunchScreen.storyboard */; };
+		EA5DC2D92071D39A00DFF2C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC2D82071D39A00DFF2C8 /* main.m */; };
+		EA5DC2E32071D39A00DFF2C8 /* AxcFormListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC2E22071D39A00DFF2C8 /* AxcFormListViewTests.m */; };
+		EA5DC2EE2071D39A00DFF2C8 /* AxcFormListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC2ED2071D39A00DFF2C8 /* AxcFormListViewUITests.m */; };
+		EA5DC31A2071D41000DFF2C8 /* AxcFormItemConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC2FF2071D41000DFF2C8 /* AxcFormItemConfiguration.m */; };
+		EA5DC31B2071D41000DFF2C8 /* AxcFormItemSectionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3002071D41000DFF2C8 /* AxcFormItemSectionConfiguration.m */; };
+		EA5DC31C2071D41000DFF2C8 /* AxcFormPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3042071D41000DFF2C8 /* AxcFormPictureCell.m */; };
+		EA5DC31D2071D41000DFF2C8 /* AxcFormPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5DC3052071D41000DFF2C8 /* AxcFormPictureCell.xib */; };
+		EA5DC31E2071D41000DFF2C8 /* AxcFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3092071D41000DFF2C8 /* AxcFormBaseCell.m */; };
+		EA5DC31F2071D41000DFF2C8 /* AxcFormImagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC30B2071D41000DFF2C8 /* AxcFormImagesModel.m */; };
+		EA5DC3202071D41000DFF2C8 /* AxcFormConfigurationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC30E2071D41000DFF2C8 /* AxcFormConfigurationModel.m */; };
+		EA5DC3212071D41000DFF2C8 /* AxcFormPullUpPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3122071D41000DFF2C8 /* AxcFormPullUpPickView.m */; };
+		EA5DC3222071D41000DFF2C8 /* AxcFormPullUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3142071D41000DFF2C8 /* AxcFormPullUpView.m */; };
+		EA5DC3232071D41000DFF2C8 /* AxcFormPullUpDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3162071D41000DFF2C8 /* AxcFormPullUpDateView.m */; };
+		EA5DC3242071D41000DFF2C8 /* AxcFormListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3182071D41000DFF2C8 /* AxcFormListView.m */; };
+		EA5DC3252071D41000DFF2C8 /* AxcFormListView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA5DC3192071D41000DFF2C8 /* AxcFormListView.bundle */; };
+		EA5DC32B2071D4B400DFF2C8 /* AxcUI_Label.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3292071D4B400DFF2C8 /* AxcUI_Label.m */; };
+		EA5DC3312071D4CB00DFF2C8 /* UIViewController+AxcSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC32D2071D4CB00DFF2C8 /* UIViewController+AxcSemiModal.m */; };
+		EA5DC3322071D4CB00DFF2C8 /* UIViewController+AxcVCBackButtonEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC32E2071D4CB00DFF2C8 /* UIViewController+AxcVCBackButtonEvent.m */; };
+		EA5DC3392071D4DC00DFF2C8 /* UIView+AxcExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3352071D4DC00DFF2C8 /* UIView+AxcExtension.m */; };
+		EA5DC33A2071D4DC00DFF2C8 /* UIView+AxcSuperObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3382071D4DC00DFF2C8 /* UIView+AxcSuperObj.m */; };
+		EA5DC33E2071D4EC00DFF2C8 /* UITextField+AxcModifyPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC33D2071D4EC00DFF2C8 /* UITextField+AxcModifyPlaceholder.m */; };
+		EA5DC3422071D4F800DFF2C8 /* UIColor+AxcColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3402071D4F800DFF2C8 /* UIColor+AxcColor.m */; };
+		EA5DC3462071D53300DFF2C8 /* NSString+AxcTextCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3442071D53300DFF2C8 /* NSString+AxcTextCalculation.m */; };
+		EA5DC3982071D7D600DFF2C8 /* TextInputDemonstrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3972071D7D600DFF2C8 /* TextInputDemonstrationVC.m */; };
+		EA5DC39B2071DF2A00DFF2C8 /* TextContentInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC39A2071DF2A00DFF2C8 /* TextContentInputVC.m */; };
+		EA5DC39E2071E70A00DFF2C8 /* SelectedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC39D2071E70A00DFF2C8 /* SelectedVC.m */; };
+		EA5DC3A12071F0A200DFF2C8 /* OtherSelectedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3A02071F0A200DFF2C8 /* OtherSelectedVC.m */; };
+		EA5DC3A42071F52200DFF2C8 /* SwitchOnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3A32071F52200DFF2C8 /* SwitchOnVC.m */; };
+		EA5DC3A72071F7E900DFF2C8 /* SystemPicSelectedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3A62071F7E900DFF2C8 /* SystemPicSelectedVC.m */; };
+		EA5DC3AA2071F80100DFF2C8 /* LibPicSelectedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3A92071F80100DFF2C8 /* LibPicSelectedVC.m */; };
+		EA5DC3AD2071F86500DFF2C8 /* ComprehensiveUseOfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DC3AC2071F86500DFF2C8 /* ComprehensiveUseOfVC.m */; };
+		EAAAA2D42072266500352F78 /* UIButton+AxcCellButton_IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAAA2CF2072266500352F78 /* UIButton+AxcCellButton_IndexPath.m */; };
+		EAAAA2D52072266500352F78 /* UIButton+AxcButtonContentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAAA2D22072266500352F78 /* UIButton+AxcButtonContentLayout.m */; };
+		EAAAA2D62072266500352F78 /* UIButton+AxcButtonCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAAA2D32072266500352F78 /* UIButton+AxcButtonCountDown.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5DC2DF2071D39A00DFF2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5DC2BE2071D39A00DFF2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5DC2C52071D39A00DFF2C8;
+			remoteInfo = AxcFormListView;
+		};
+		EA5DC2EA2071D39A00DFF2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5DC2BE2071D39A00DFF2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5DC2C52071D39A00DFF2C8;
+			remoteInfo = AxcFormListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E6F334DBB523619B000D1B1 /* libPods-AxcFormListView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxcFormListView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F71B54B94A2F39CC4020F6 /* Pods-AxcFormListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxcFormListView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxcFormListView/Pods-AxcFormListView.release.xcconfig"; sourceTree = "<group>"; };
+		9CBBB01C429FC313EBD5B790 /* Pods-AxcFormListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxcFormListView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxcFormListView/Pods-AxcFormListView.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5DC2C62071D39A00DFF2C8 /* AxcFormListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxcFormListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5DC2C92071D39A00DFF2C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA5DC2CA2071D39A00DFF2C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA5DC2CC2071D39A00DFF2C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA5DC2CD2071D39A00DFF2C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA5DC2D02071D39A00DFF2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA5DC2D22071D39A00DFF2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA5DC2D52071D39A00DFF2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA5DC2D72071D39A00DFF2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5DC2D82071D39A00DFF2C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5DC2DE2071D39A00DFF2C8 /* AxcFormListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxcFormListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5DC2E22071D39A00DFF2C8 /* AxcFormListViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxcFormListViewTests.m; sourceTree = "<group>"; };
+		EA5DC2E42071D39A00DFF2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5DC2E92071D39A00DFF2C8 /* AxcFormListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxcFormListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5DC2ED2071D39A00DFF2C8 /* AxcFormListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxcFormListViewUITests.m; sourceTree = "<group>"; };
+		EA5DC2EF2071D39A00DFF2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5DC2FD2071D41000DFF2C8 /* AxcFormItemConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormItemConfiguration.h; sourceTree = "<group>"; };
+		EA5DC2FE2071D41000DFF2C8 /* AxcFormItemSectionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormItemSectionConfiguration.h; sourceTree = "<group>"; };
+		EA5DC2FF2071D41000DFF2C8 /* AxcFormItemConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormItemConfiguration.m; sourceTree = "<group>"; };
+		EA5DC3002071D41000DFF2C8 /* AxcFormItemSectionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormItemSectionConfiguration.m; sourceTree = "<group>"; };
+		EA5DC3012071D41000DFF2C8 /* AxcFormListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormListView.h; sourceTree = "<group>"; };
+		EA5DC3042071D41000DFF2C8 /* AxcFormPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormPictureCell.m; sourceTree = "<group>"; };
+		EA5DC3052071D41000DFF2C8 /* AxcFormPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AxcFormPictureCell.xib; sourceTree = "<group>"; };
+		EA5DC3062071D41000DFF2C8 /* AxcFormPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormPictureCell.h; sourceTree = "<group>"; };
+		EA5DC3082071D41000DFF2C8 /* AxcFormBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormBaseCell.h; sourceTree = "<group>"; };
+		EA5DC3092071D41000DFF2C8 /* AxcFormBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormBaseCell.m; sourceTree = "<group>"; };
+		EA5DC30B2071D41000DFF2C8 /* AxcFormImagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormImagesModel.m; sourceTree = "<group>"; };
+		EA5DC30C2071D41000DFF2C8 /* AxcFormConfigurationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormConfigurationModel.h; sourceTree = "<group>"; };
+		EA5DC30D2071D41000DFF2C8 /* AxcFormImagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormImagesModel.h; sourceTree = "<group>"; };
+		EA5DC30E2071D41000DFF2C8 /* AxcFormConfigurationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormConfigurationModel.m; sourceTree = "<group>"; };
+		EA5DC3102071D41000DFF2C8 /* AxcFormPullUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormPullUpView.h; sourceTree = "<group>"; };
+		EA5DC3122071D41000DFF2C8 /* AxcFormPullUpPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormPullUpPickView.m; sourceTree = "<group>"; };
+		EA5DC3132071D41000DFF2C8 /* AxcFormPullUpPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormPullUpPickView.h; sourceTree = "<group>"; };
+		EA5DC3142071D41000DFF2C8 /* AxcFormPullUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormPullUpView.m; sourceTree = "<group>"; };
+		EA5DC3162071D41000DFF2C8 /* AxcFormPullUpDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormPullUpDateView.m; sourceTree = "<group>"; };
+		EA5DC3172071D41000DFF2C8 /* AxcFormPullUpDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcFormPullUpDateView.h; sourceTree = "<group>"; };
+		EA5DC3182071D41000DFF2C8 /* AxcFormListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcFormListView.m; sourceTree = "<group>"; };
+		EA5DC3192071D41000DFF2C8 /* AxcFormListView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AxcFormListView.bundle; sourceTree = "<group>"; };
+		EA5DC3262071D41E00DFF2C8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA5DC3292071D4B400DFF2C8 /* AxcUI_Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcUI_Label.m; sourceTree = "<group>"; };
+		EA5DC32A2071D4B400DFF2C8 /* AxcUI_Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcUI_Label.h; sourceTree = "<group>"; };
+		EA5DC32D2071D4CB00DFF2C8 /* UIViewController+AxcSemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AxcSemiModal.m"; sourceTree = "<group>"; };
+		EA5DC32E2071D4CB00DFF2C8 /* UIViewController+AxcVCBackButtonEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AxcVCBackButtonEvent.m"; sourceTree = "<group>"; };
+		EA5DC32F2071D4CB00DFF2C8 /* UIViewController+AxcSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AxcSemiModal.h"; sourceTree = "<group>"; };
+		EA5DC3302071D4CB00DFF2C8 /* UIViewController+AxcVCBackButtonEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AxcVCBackButtonEvent.h"; sourceTree = "<group>"; };
+		EA5DC3352071D4DC00DFF2C8 /* UIView+AxcExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AxcExtension.m"; sourceTree = "<group>"; };
+		EA5DC3362071D4DC00DFF2C8 /* UIView+AxcSuperObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AxcSuperObj.h"; sourceTree = "<group>"; };
+		EA5DC3372071D4DC00DFF2C8 /* UIView+AxcExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AxcExtension.h"; sourceTree = "<group>"; };
+		EA5DC3382071D4DC00DFF2C8 /* UIView+AxcSuperObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AxcSuperObj.m"; sourceTree = "<group>"; };
+		EA5DC33C2071D4EC00DFF2C8 /* UITextField+AxcModifyPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+AxcModifyPlaceholder.h"; sourceTree = "<group>"; };
+		EA5DC33D2071D4EC00DFF2C8 /* UITextField+AxcModifyPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+AxcModifyPlaceholder.m"; sourceTree = "<group>"; };
+		EA5DC3402071D4F800DFF2C8 /* UIColor+AxcColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AxcColor.m"; sourceTree = "<group>"; };
+		EA5DC3412071D4F800DFF2C8 /* UIColor+AxcColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AxcColor.h"; sourceTree = "<group>"; };
+		EA5DC3442071D53300DFF2C8 /* NSString+AxcTextCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AxcTextCalculation.m"; sourceTree = "<group>"; };
+		EA5DC3452071D53300DFF2C8 /* NSString+AxcTextCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AxcTextCalculation.h"; sourceTree = "<group>"; };
+		EA5DC3472071D54400DFF2C8 /* ExtensionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionHeader.h; sourceTree = "<group>"; };
+		EA5DC3962071D7D600DFF2C8 /* TextInputDemonstrationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextInputDemonstrationVC.h; sourceTree = "<group>"; };
+		EA5DC3972071D7D600DFF2C8 /* TextInputDemonstrationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextInputDemonstrationVC.m; sourceTree = "<group>"; };
+		EA5DC3992071DF2A00DFF2C8 /* TextContentInputVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextContentInputVC.h; sourceTree = "<group>"; };
+		EA5DC39A2071DF2A00DFF2C8 /* TextContentInputVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextContentInputVC.m; sourceTree = "<group>"; };
+		EA5DC39C2071E70A00DFF2C8 /* SelectedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectedVC.h; sourceTree = "<group>"; };
+		EA5DC39D2071E70A00DFF2C8 /* SelectedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectedVC.m; sourceTree = "<group>"; };
+		EA5DC39F2071F0A200DFF2C8 /* OtherSelectedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherSelectedVC.h; sourceTree = "<group>"; };
+		EA5DC3A02071F0A200DFF2C8 /* OtherSelectedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherSelectedVC.m; sourceTree = "<group>"; };
+		EA5DC3A22071F52200DFF2C8 /* SwitchOnVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchOnVC.h; sourceTree = "<group>"; };
+		EA5DC3A32071F52200DFF2C8 /* SwitchOnVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchOnVC.m; sourceTree = "<group>"; };
+		EA5DC3A52071F7E900DFF2C8 /* SystemPicSelectedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemPicSelectedVC.h; sourceTree = "<group>"; };
+		EA5DC3A62071F7E900DFF2C8 /* SystemPicSelectedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemPicSelectedVC.m; sourceTree = "<group>"; };
+		EA5DC3A82071F80100DFF2C8 /* LibPicSelectedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibPicSelectedVC.h; sourceTree = "<group>"; };
+		EA5DC3A92071F80100DFF2C8 /* LibPicSelectedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibPicSelectedVC.m; sourceTree = "<group>"; };
+		EA5DC3AB2071F86500DFF2C8 /* ComprehensiveUseOfVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComprehensiveUseOfVC.h; sourceTree = "<group>"; };
+		EA5DC3AC2071F86500DFF2C8 /* ComprehensiveUseOfVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComprehensiveUseOfVC.m; sourceTree = "<group>"; };
+		EAAAA2CE2072266500352F78 /* UIButton+AxcButtonContentLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AxcButtonContentLayout.h"; sourceTree = "<group>"; };
+		EAAAA2CF2072266500352F78 /* UIButton+AxcCellButton_IndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AxcCellButton_IndexPath.m"; sourceTree = "<group>"; };
+		EAAAA2D02072266500352F78 /* UIButton+AxcButtonCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AxcButtonCountDown.h"; sourceTree = "<group>"; };
+		EAAAA2D12072266500352F78 /* UIButton+AxcCellButton_IndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AxcCellButton_IndexPath.h"; sourceTree = "<group>"; };
+		EAAAA2D22072266500352F78 /* UIButton+AxcButtonContentLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AxcButtonContentLayout.m"; sourceTree = "<group>"; };
+		EAAAA2D32072266500352F78 /* UIButton+AxcButtonCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AxcButtonCountDown.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5DC2C32071D39A00DFF2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94717525068ED6FCF48AEE6 /* libPods-AxcFormListView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5DC2DB2071D39A00DFF2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5DC2E62071D39A00DFF2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4707B1258D458A5347E404A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CBBB01C429FC313EBD5B790 /* Pods-AxcFormListView.debug.xcconfig */,
+				62F71B54B94A2F39CC4020F6 /* Pods-AxcFormListView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA5DC2BD2071D39A00DFF2C8 = {
+			isa = PBXGroup;
+			children = (
+				EA5DC2C82071D39A00DFF2C8 /* AxcFormListView */,
+				EA5DC2E12071D39A00DFF2C8 /* AxcFormListViewTests */,
+				EA5DC2EC2071D39A00DFF2C8 /* AxcFormListViewUITests */,
+				EA5DC2C72071D39A00DFF2C8 /* Products */,
+				4707B1258D458A5347E404A5 /* Pods */,
+				FC8C1BC0F6531A85B7385155 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5DC2C72071D39A00DFF2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC2C62071D39A00DFF2C8 /* AxcFormListView.app */,
+				EA5DC2DE2071D39A00DFF2C8 /* AxcFormListViewTests.xctest */,
+				EA5DC2E92071D39A00DFF2C8 /* AxcFormListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5DC2C82071D39A00DFF2C8 /* AxcFormListView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC2C92071D39A00DFF2C8 /* AppDelegate.h */,
+				EA5DC2CA2071D39A00DFF2C8 /* AppDelegate.m */,
+				EA5DC2CC2071D39A00DFF2C8 /* ViewController.h */,
+				EA5DC2CD2071D39A00DFF2C8 /* ViewController.m */,
+				EA5DC3952071D7B300DFF2C8 /* 二级页面 */,
+				EA5DC3272071D4A400DFF2C8 /* 其他依赖 */,
+				EA5DC2FB2071D41000DFF2C8 /* AxcFormListView */,
+				EA5DC2CF2071D39A00DFF2C8 /* Main.storyboard */,
+				EA5DC2D22071D39A00DFF2C8 /* Assets.xcassets */,
+				EA5DC2D42071D39A00DFF2C8 /* LaunchScreen.storyboard */,
+				EA5DC2D72071D39A00DFF2C8 /* Info.plist */,
+				EA5DC2D82071D39A00DFF2C8 /* main.m */,
+				EA5DC3262071D41E00DFF2C8 /* PrefixHeader.pch */,
+			);
+			path = AxcFormListView;
+			sourceTree = "<group>";
+		};
+		EA5DC2E12071D39A00DFF2C8 /* AxcFormListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC2E22071D39A00DFF2C8 /* AxcFormListViewTests.m */,
+				EA5DC2E42071D39A00DFF2C8 /* Info.plist */,
+			);
+			path = AxcFormListViewTests;
+			sourceTree = "<group>";
+		};
+		EA5DC2EC2071D39A00DFF2C8 /* AxcFormListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC2ED2071D39A00DFF2C8 /* AxcFormListViewUITests.m */,
+				EA5DC2EF2071D39A00DFF2C8 /* Info.plist */,
+			);
+			path = AxcFormListViewUITests;
+			sourceTree = "<group>";
+		};
+		EA5DC2FB2071D41000DFF2C8 /* AxcFormListView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC2FC2071D41000DFF2C8 /* Configuration */,
+				EA5DC3012071D41000DFF2C8 /* AxcFormListView.h */,
+				EA5DC3182071D41000DFF2C8 /* AxcFormListView.m */,
+				EA5DC3022071D41000DFF2C8 /* Cell */,
+				EA5DC30A2071D41000DFF2C8 /* Model */,
+				EA5DC30F2071D41000DFF2C8 /* View */,
+				EA5DC3192071D41000DFF2C8 /* AxcFormListView.bundle */,
+			);
+			path = AxcFormListView;
+			sourceTree = "<group>";
+		};
+		EA5DC2FC2071D41000DFF2C8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC2FD2071D41000DFF2C8 /* AxcFormItemConfiguration.h */,
+				EA5DC2FF2071D41000DFF2C8 /* AxcFormItemConfiguration.m */,
+				EA5DC2FE2071D41000DFF2C8 /* AxcFormItemSectionConfiguration.h */,
+				EA5DC3002071D41000DFF2C8 /* AxcFormItemSectionConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		EA5DC3022071D41000DFF2C8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3032071D41000DFF2C8 /* PictureCell */,
+				EA5DC3072071D41000DFF2C8 /* BaseCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EA5DC3032071D41000DFF2C8 /* PictureCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3042071D41000DFF2C8 /* AxcFormPictureCell.m */,
+				EA5DC3052071D41000DFF2C8 /* AxcFormPictureCell.xib */,
+				EA5DC3062071D41000DFF2C8 /* AxcFormPictureCell.h */,
+			);
+			path = PictureCell;
+			sourceTree = "<group>";
+		};
+		EA5DC3072071D41000DFF2C8 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3082071D41000DFF2C8 /* AxcFormBaseCell.h */,
+				EA5DC3092071D41000DFF2C8 /* AxcFormBaseCell.m */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		EA5DC30A2071D41000DFF2C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC30B2071D41000DFF2C8 /* AxcFormImagesModel.m */,
+				EA5DC30C2071D41000DFF2C8 /* AxcFormConfigurationModel.h */,
+				EA5DC30D2071D41000DFF2C8 /* AxcFormImagesModel.h */,
+				EA5DC30E2071D41000DFF2C8 /* AxcFormConfigurationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA5DC30F2071D41000DFF2C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3102071D41000DFF2C8 /* AxcFormPullUpView.h */,
+				EA5DC3142071D41000DFF2C8 /* AxcFormPullUpView.m */,
+				EA5DC3112071D41000DFF2C8 /* AxcFormPullUpPickView */,
+				EA5DC3152071D41000DFF2C8 /* AxcFormPullUpDateView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA5DC3112071D41000DFF2C8 /* AxcFormPullUpPickView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3122071D41000DFF2C8 /* AxcFormPullUpPickView.m */,
+				EA5DC3132071D41000DFF2C8 /* AxcFormPullUpPickView.h */,
+			);
+			path = AxcFormPullUpPickView;
+			sourceTree = "<group>";
+		};
+		EA5DC3152071D41000DFF2C8 /* AxcFormPullUpDateView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3162071D41000DFF2C8 /* AxcFormPullUpDateView.m */,
+				EA5DC3172071D41000DFF2C8 /* AxcFormPullUpDateView.h */,
+			);
+			path = AxcFormPullUpDateView;
+			sourceTree = "<group>";
+		};
+		EA5DC3272071D4A400DFF2C8 /* 其他依赖 */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3332071D4D100DFF2C8 /* Extension */,
+				EA5DC3282071D4B400DFF2C8 /* AxcUI_Label */,
+			);
+			path = "其他依赖";
+			sourceTree = "<group>";
+		};
+		EA5DC3282071D4B400DFF2C8 /* AxcUI_Label */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3292071D4B400DFF2C8 /* AxcUI_Label.m */,
+				EA5DC32A2071D4B400DFF2C8 /* AxcUI_Label.h */,
+			);
+			path = AxcUI_Label;
+			sourceTree = "<group>";
+		};
+		EA5DC32C2071D4CB00DFF2C8 /* UIViewController+ */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC32D2071D4CB00DFF2C8 /* UIViewController+AxcSemiModal.m */,
+				EA5DC32E2071D4CB00DFF2C8 /* UIViewController+AxcVCBackButtonEvent.m */,
+				EA5DC32F2071D4CB00DFF2C8 /* UIViewController+AxcSemiModal.h */,
+				EA5DC3302071D4CB00DFF2C8 /* UIViewController+AxcVCBackButtonEvent.h */,
+			);
+			path = "UIViewController+";
+			sourceTree = "<group>";
+		};
+		EA5DC3332071D4D100DFF2C8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EAAAA2CD2072266500352F78 /* UIButton+ */,
+				EA5DC3472071D54400DFF2C8 /* ExtensionHeader.h */,
+				EA5DC3432071D53300DFF2C8 /* NSString+ */,
+				EA5DC33F2071D4F800DFF2C8 /* Color+ */,
+				EA5DC33B2071D4EC00DFF2C8 /* UITextField+ */,
+				EA5DC3342071D4DC00DFF2C8 /* UIView+ */,
+				EA5DC32C2071D4CB00DFF2C8 /* UIViewController+ */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EA5DC3342071D4DC00DFF2C8 /* UIView+ */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3352071D4DC00DFF2C8 /* UIView+AxcExtension.m */,
+				EA5DC3362071D4DC00DFF2C8 /* UIView+AxcSuperObj.h */,
+				EA5DC3372071D4DC00DFF2C8 /* UIView+AxcExtension.h */,
+				EA5DC3382071D4DC00DFF2C8 /* UIView+AxcSuperObj.m */,
+			);
+			path = "UIView+";
+			sourceTree = "<group>";
+		};
+		EA5DC33B2071D4EC00DFF2C8 /* UITextField+ */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC33C2071D4EC00DFF2C8 /* UITextField+AxcModifyPlaceholder.h */,
+				EA5DC33D2071D4EC00DFF2C8 /* UITextField+AxcModifyPlaceholder.m */,
+			);
+			path = "UITextField+";
+			sourceTree = "<group>";
+		};
+		EA5DC33F2071D4F800DFF2C8 /* Color+ */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3402071D4F800DFF2C8 /* UIColor+AxcColor.m */,
+				EA5DC3412071D4F800DFF2C8 /* UIColor+AxcColor.h */,
+			);
+			path = "Color+";
+			sourceTree = "<group>";
+		};
+		EA5DC3432071D53300DFF2C8 /* NSString+ */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3442071D53300DFF2C8 /* NSString+AxcTextCalculation.m */,
+				EA5DC3452071D53300DFF2C8 /* NSString+AxcTextCalculation.h */,
+			);
+			path = "NSString+";
+			sourceTree = "<group>";
+		};
+		EA5DC3952071D7B300DFF2C8 /* 二级页面 */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DC3962071D7D600DFF2C8 /* TextInputDemonstrationVC.h */,
+				EA5DC3972071D7D600DFF2C8 /* TextInputDemonstrationVC.m */,
+				EA5DC3992071DF2A00DFF2C8 /* TextContentInputVC.h */,
+				EA5DC39A2071DF2A00DFF2C8 /* TextContentInputVC.m */,
+				EA5DC39C2071E70A00DFF2C8 /* SelectedVC.h */,
+				EA5DC39D2071E70A00DFF2C8 /* SelectedVC.m */,
+				EA5DC39F2071F0A200DFF2C8 /* OtherSelectedVC.h */,
+				EA5DC3A02071F0A200DFF2C8 /* OtherSelectedVC.m */,
+				EA5DC3A22071F52200DFF2C8 /* SwitchOnVC.h */,
+				EA5DC3A32071F52200DFF2C8 /* SwitchOnVC.m */,
+				EA5DC3A52071F7E900DFF2C8 /* SystemPicSelectedVC.h */,
+				EA5DC3A62071F7E900DFF2C8 /* SystemPicSelectedVC.m */,
+				EA5DC3A82071F80100DFF2C8 /* LibPicSelectedVC.h */,
+				EA5DC3A92071F80100DFF2C8 /* LibPicSelectedVC.m */,
+				EA5DC3AB2071F86500DFF2C8 /* ComprehensiveUseOfVC.h */,
+				EA5DC3AC2071F86500DFF2C8 /* ComprehensiveUseOfVC.m */,
+			);
+			path = "二级页面";
+			sourceTree = "<group>";
+		};
+		EAAAA2CD2072266500352F78 /* UIButton+ */ = {
+			isa = PBXGroup;
+			children = (
+				EAAAA2CE2072266500352F78 /* UIButton+AxcButtonContentLayout.h */,
+				EAAAA2CF2072266500352F78 /* UIButton+AxcCellButton_IndexPath.m */,
+				EAAAA2D02072266500352F78 /* UIButton+AxcButtonCountDown.h */,
+				EAAAA2D12072266500352F78 /* UIButton+AxcCellButton_IndexPath.h */,
+				EAAAA2D22072266500352F78 /* UIButton+AxcButtonContentLayout.m */,
+				EAAAA2D32072266500352F78 /* UIButton+AxcButtonCountDown.m */,
+			);
+			path = "UIButton+";
+			sourceTree = "<group>";
+		};
+		FC8C1BC0F6531A85B7385155 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E6F334DBB523619B000D1B1 /* libPods-AxcFormListView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5DC2C52071D39A00DFF2C8 /* AxcFormListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5DC2F22071D39A00DFF2C8 /* Build configuration list for PBXNativeTarget "AxcFormListView" */;
+			buildPhases = (
+				E13BEB8DD57324B9E4C93E5E /* [CP] Check Pods Manifest.lock */,
+				EA5DC2C22071D39A00DFF2C8 /* Sources */,
+				EA5DC2C32071D39A00DFF2C8 /* Frameworks */,
+				EA5DC2C42071D39A00DFF2C8 /* Resources */,
+				32D7F1D0EA4BC91CBA2D0E6F /* [CP] Embed Pods Frameworks */,
+				DD777278A1A745B79F87CA39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AxcFormListView;
+			productName = AxcFormListView;
+			productReference = EA5DC2C62071D39A00DFF2C8 /* AxcFormListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5DC2DD2071D39A00DFF2C8 /* AxcFormListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5DC2F52071D39A00DFF2C8 /* Build configuration list for PBXNativeTarget "AxcFormListViewTests" */;
+			buildPhases = (
+				EA5DC2DA2071D39A00DFF2C8 /* Sources */,
+				EA5DC2DB2071D39A00DFF2C8 /* Frameworks */,
+				EA5DC2DC2071D39A00DFF2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5DC2E02071D39A00DFF2C8 /* PBXTargetDependency */,
+			);
+			name = AxcFormListViewTests;
+			productName = AxcFormListViewTests;
+			productReference = EA5DC2DE2071D39A00DFF2C8 /* AxcFormListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA5DC2E82071D39A00DFF2C8 /* AxcFormListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5DC2F82071D39A00DFF2C8 /* Build configuration list for PBXNativeTarget "AxcFormListViewUITests" */;
+			buildPhases = (
+				EA5DC2E52071D39A00DFF2C8 /* Sources */,
+				EA5DC2E62071D39A00DFF2C8 /* Frameworks */,
+				EA5DC2E72071D39A00DFF2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5DC2EB2071D39A00DFF2C8 /* PBXTargetDependency */,
+			);
+			name = AxcFormListViewUITests;
+			productName = AxcFormListViewUITests;
+			productReference = EA5DC2E92071D39A00DFF2C8 /* AxcFormListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5DC2BE2071D39A00DFF2C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AxcLogo;
+				TargetAttributes = {
+					EA5DC2C52071D39A00DFF2C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EA5DC2DD2071D39A00DFF2C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA5DC2C52071D39A00DFF2C8;
+					};
+					EA5DC2E82071D39A00DFF2C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA5DC2C52071D39A00DFF2C8;
+					};
+				};
+			};
+			buildConfigurationList = EA5DC2C12071D39A00DFF2C8 /* Build configuration list for PBXProject "AxcFormListView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5DC2BD2071D39A00DFF2C8;
+			productRefGroup = EA5DC2C72071D39A00DFF2C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5DC2C52071D39A00DFF2C8 /* AxcFormListView */,
+				EA5DC2DD2071D39A00DFF2C8 /* AxcFormListViewTests */,
+				EA5DC2E82071D39A00DFF2C8 /* AxcFormListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5DC2C42071D39A00DFF2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5DC2D62071D39A00DFF2C8 /* LaunchScreen.storyboard in Resources */,
+				EA5DC2D32071D39A00DFF2C8 /* Assets.xcassets in Resources */,
+				EA5DC2D12071D39A00DFF2C8 /* Main.storyboard in Resources */,
+				EA5DC3252071D41000DFF2C8 /* AxcFormListView.bundle in Resources */,
+				EA5DC31D2071D41000DFF2C8 /* AxcFormPictureCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5DC2DC2071D39A00DFF2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5DC2E72071D39A00DFF2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32D7F1D0EA4BC91CBA2D0E6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AxcFormListView/Pods-AxcFormListView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD777278A1A745B79F87CA39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AxcFormListView/Pods-AxcFormListView-resources.sh",
+				"${PODS_ROOT}/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoActionSheet.xib",
+				"${PODS_ROOT}/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowserCell.xib",
+				"${PODS_ROOT}/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AxcFormListView/Pods-AxcFormListView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E13BEB8DD57324B9E4C93E5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AxcFormListView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5DC2C22071D39A00DFF2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5DC31B2071D41000DFF2C8 /* AxcFormItemSectionConfiguration.m in Sources */,
+				EA5DC33A2071D4DC00DFF2C8 /* UIView+AxcSuperObj.m in Sources */,
+				EA5DC32B2071D4B400DFF2C8 /* AxcUI_Label.m in Sources */,
+				EA5DC3A12071F0A200DFF2C8 /* OtherSelectedVC.m in Sources */,
+				EA5DC3462071D53300DFF2C8 /* NSString+AxcTextCalculation.m in Sources */,
+				EA5DC33E2071D4EC00DFF2C8 /* UITextField+AxcModifyPlaceholder.m in Sources */,
+				EA5DC31C2071D41000DFF2C8 /* AxcFormPictureCell.m in Sources */,
+				EA5DC3312071D4CB00DFF2C8 /* UIViewController+AxcSemiModal.m in Sources */,
+				EAAAA2D62072266500352F78 /* UIButton+AxcButtonCountDown.m in Sources */,
+				EA5DC3A72071F7E900DFF2C8 /* SystemPicSelectedVC.m in Sources */,
+				EA5DC31E2071D41000DFF2C8 /* AxcFormBaseCell.m in Sources */,
+				EA5DC3AA2071F80100DFF2C8 /* LibPicSelectedVC.m in Sources */,
+				EA5DC31A2071D41000DFF2C8 /* AxcFormItemConfiguration.m in Sources */,
+				EA5DC3212071D41000DFF2C8 /* AxcFormPullUpPickView.m in Sources */,
+				EA5DC3232071D41000DFF2C8 /* AxcFormPullUpDateView.m in Sources */,
+				EA5DC3A42071F52200DFF2C8 /* SwitchOnVC.m in Sources */,
+				EA5DC2CE2071D39A00DFF2C8 /* ViewController.m in Sources */,
+				EA5DC3AD2071F86500DFF2C8 /* ComprehensiveUseOfVC.m in Sources */,
+				EAAAA2D52072266500352F78 /* UIButton+AxcButtonContentLayout.m in Sources */,
+				EAAAA2D42072266500352F78 /* UIButton+AxcCellButton_IndexPath.m in Sources */,
+				EA5DC3202071D41000DFF2C8 /* AxcFormConfigurationModel.m in Sources */,
+				EA5DC39B2071DF2A00DFF2C8 /* TextContentInputVC.m in Sources */,
+				EA5DC2D92071D39A00DFF2C8 /* main.m in Sources */,
+				EA5DC3222071D41000DFF2C8 /* AxcFormPullUpView.m in Sources */,
+				EA5DC3242071D41000DFF2C8 /* AxcFormListView.m in Sources */,
+				EA5DC31F2071D41000DFF2C8 /* AxcFormImagesModel.m in Sources */,
+				EA5DC3982071D7D600DFF2C8 /* TextInputDemonstrationVC.m in Sources */,
+				EA5DC39E2071E70A00DFF2C8 /* SelectedVC.m in Sources */,
+				EA5DC3422071D4F800DFF2C8 /* UIColor+AxcColor.m in Sources */,
+				EA5DC3392071D4DC00DFF2C8 /* UIView+AxcExtension.m in Sources */,
+				EA5DC3322071D4CB00DFF2C8 /* UIViewController+AxcVCBackButtonEvent.m in Sources */,
+				EA5DC2CB2071D39A00DFF2C8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5DC2DA2071D39A00DFF2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5DC2E32071D39A00DFF2C8 /* AxcFormListViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5DC2E52071D39A00DFF2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5DC2EE2071D39A00DFF2C8 /* AxcFormListViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5DC2E02071D39A00DFF2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5DC2C52071D39A00DFF2C8 /* AxcFormListView */;
+			targetProxy = EA5DC2DF2071D39A00DFF2C8 /* PBXContainerItemProxy */;
+		};
+		EA5DC2EB2071D39A00DFF2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5DC2C52071D39A00DFF2C8 /* AxcFormListView */;
+			targetProxy = EA5DC2EA2071D39A00DFF2C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA5DC2CF2071D39A00DFF2C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5DC2D02071D39A00DFF2C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5DC2D42071D39A00DFF2C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5DC2D52071D39A00DFF2C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5DC2F02071D39A00DFF2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA5DC2F12071D39A00DFF2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5DC2F32071D39A00DFF2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBBB01C429FC313EBD5B790 /* Pods-AxcFormListView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AxcFormListView/PrefixHeader.pch";
+				INFOPLIST_FILE = AxcFormListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabric-Merchants-iOS.AxcFormListView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5DC2F42071D39A00DFF2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F71B54B94A2F39CC4020F6 /* Pods-AxcFormListView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AxcFormListView/PrefixHeader.pch";
+				INFOPLIST_FILE = AxcFormListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabric-Merchants-iOS.AxcFormListView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA5DC2F62071D39A00DFF2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AxcFormListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabric-Merchants-iOS.AxcFormListViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxcFormListView.app/AxcFormListView";
+			};
+			name = Debug;
+		};
+		EA5DC2F72071D39A00DFF2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AxcFormListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabric-Merchants-iOS.AxcFormListViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxcFormListView.app/AxcFormListView";
+			};
+			name = Release;
+		};
+		EA5DC2F92071D39A00DFF2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AxcFormListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabric-Merchants-iOS.AxcFormListViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxcFormListView;
+			};
+			name = Debug;
+		};
+		EA5DC2FA2071D39A00DFF2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AxcFormListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabric-Merchants-iOS.AxcFormListViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxcFormListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5DC2C12071D39A00DFF2C8 /* Build configuration list for PBXProject "AxcFormListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5DC2F02071D39A00DFF2C8 /* Debug */,
+				EA5DC2F12071D39A00DFF2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5DC2F22071D39A00DFF2C8 /* Build configuration list for PBXNativeTarget "AxcFormListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5DC2F32071D39A00DFF2C8 /* Debug */,
+				EA5DC2F42071D39A00DFF2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5DC2F52071D39A00DFF2C8 /* Build configuration list for PBXNativeTarget "AxcFormListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5DC2F62071D39A00DFF2C8 /* Debug */,
+				EA5DC2F72071D39A00DFF2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5DC2F82071D39A00DFF2C8 /* Build configuration list for PBXNativeTarget "AxcFormListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5DC2F92071D39A00DFF2C8 /* Debug */,
+				EA5DC2FA2071D39A00DFF2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5DC2BE2071D39A00DFF2C8 /* Project object */;
+}
