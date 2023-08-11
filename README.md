@@ -1,9 +1,39 @@
+<!-- 
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
 
-## AxcUIKit
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
 
-AxcUIKit将按照统一的规格进行封装，计划未来将支持Dart、Swift、kotlin等一系列前端语言
-并且语法会做到尽量统一，尽可能的做到跨平台开发的流畅性和熟悉性
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/guides/libraries/create-library-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/developing-packages). 
+-->
 
-## 说明
+TODO: Put a short description of the package here that helps potential users
+know whether this package might be useful for them.
 
-目前该库正在进行重构中，所有控件都将改为子组件按需导入，并且做细化颗粒度解耦。
+## Features
+
+TODO: List what your package can do. Maybe include images, gifs, or videos.
+
+## Getting started
+
+TODO: List prerequisites and provide or point to information on how to
+start using the package.
+
+## Usage
+
+TODO: Include short and useful examples for package users. Add longer examples
+to `/example` folder. 
+
+```dart
+const like = 'sample';
+```
+
+## Additional information
+
+TODO: Tell users more about the package: where to find more information, how to 
+contribute to the package, how to file issues, what response they can expect 
+from the package authors, and more.
